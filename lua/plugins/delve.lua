@@ -26,7 +26,7 @@ return {
 			vim.keymap.set('n', '<F10>', ':DapStepOver<Enter>', { desc = 'Debug: Step Over' })
 			vim.keymap.set('n', '<F11>', ':DapStepInto<Enter>', { desc = 'Debug: Step Into' })
 			vim.keymap.set('n', '<F12>', ':DapStepOut<Enter>', { desc = 'Debug: Step Out' })
-			vim.keymap.set('n', '<C-b>', ':DapToggleBreakpoint<Enter>', { desc = 'Debug: Toggle Breakpoint' })
+			vim.keymap.set('n', '<M-b>', ':DapToggleBreakpoint<Enter>', { desc = 'Debug: Toggle Breakpoint' })
 		end
 	},
 	{
