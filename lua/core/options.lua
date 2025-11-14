@@ -9,4 +9,5 @@ vim.opt.shiftwidth = 2
 vim.opt.foldnestmax = 1
 vim.opt.foldmethod = 'expr'
 vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
-vim.opt.foldlevelstart = 1 
+vim.opt.foldlevelstart = 1
+vim.o.completeopt = "menuone,noselect"
